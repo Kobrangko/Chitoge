@@ -23,6 +23,20 @@
 |----|--------|
 |Triggered| Tag a photo while commanding, given image would be triggered xD|
 |Chess| Launches a game of chess straight in the group chat, YES THIS IS THE FUTURE! EMBRACE IT!|
+|Famousquote| Will give you a famous random quote|
+|Hug| Hugs the tagged person|
+|In-Love-With| You're in love with the tagged person|
+|Kick| Kicks the tagged person|
+|Kill| Kills the tagged person|
+|Kiss| Kiss the person you tagged|
+|Lick| Licks the tagged person|
+|Pat| Pats the tagged person|
+|Punch| Punch the person you tagged|
+|Quote| Will give you a random quote|
+|Scare| Scares the tagged person|
+|Slap| Slaps the tagged person|
+|Slash| Slashes the tagged person|
+|Why| Will give you a random question|
 
 |Misc| usage|
 |----|--------|
@@ -43,6 +57,11 @@ Activate| Activates certain bot features in a group chat|
 |Blur| Blurs the tagged image or the pfp of the user's commanding it|
 |Sticker| Converts the given gif/image into a webp sticker|
 |Subred| A random subreddit post based on the specified search would be fetched. (Sometimes nsfw posts can too be fetched so be careful)|
+
+|Weeb| usage|
+|-----------|
+|Neko| Sends you a random anime neko image|
+|Waifu| Sends you a random anime waifu image|
 
 |Dev| usage|
 |----|--------|
