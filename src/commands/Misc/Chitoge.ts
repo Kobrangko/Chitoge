@@ -24,7 +24,7 @@ return void M.reply(await request.buffer('https://i.pinimg.com/736x/ca/e7/8a/cae
 MessageType.image,
             undefined,
             undefined,
-            `*🌟Chitoge🌟*`
+            `*🌟Chitoge🌟*\n\n🍀 *Description:* Maintained Fork of WhatsApp Botto Void\n\n🌐 *URL:* https://github.com/ShinNouzen/Chitoge#readme\n\n📂 *Repository:* https://github.com/ShinNouzen/Chitoge`
            
 
 )
