@@ -30,7 +30,7 @@ let hug = n[Math.floor(Math.random() * n.length)]
         MessageType.video, 
 
  
-          { mimetype: Mimetype.gif, caption: `@${user1.split('@')[0]} hugged @${user2.split('@')[0]}`, contextInfo: {mentionedJid : [user1, user2]} }
+          { mimetype: Mimetype.gif, caption: `@${user1.split('@')[0]} slashed @${user2.split('@')[0]}`, contextInfo: {mentionedJid : [user1, user2]} }
       )         
 
 
