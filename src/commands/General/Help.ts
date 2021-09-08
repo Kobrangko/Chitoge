@@ -13,7 +13,8 @@ export default class Command extends BaseCommand {
             description: 'Displays the help menu or shows the info of the command provided',
             category: 'general',
             usage: `${client.config.prefix}help (command_name)`,
-            aliases: ['h']
+            dm: true,
+            aliases: ['menu']
         })
     }
 
@@ -31,7 +32,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `🌟 *Chitoge's command list* 🌟\n\n`
+            let text = `🌟 *Chitoge's Command List* 🌟\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
@@ -39,9 +40,10 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                     .join(', ')}\`\`\`\n\n`
-            return void M.reply( await request.buffer('https://www.wallpapertip.com/wmimgs/21-219219_chitoge-kirisaki.jpg'),  MessageType.image,            undefined,
-            undefined,
-                                
+           
+                
+               return void M.reply( 
+                
                 `${text} 🗃️ *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
             )
         }
