@@ -35,13 +35,13 @@ export default class Command extends BaseCommand {
                 contextInfo: {
                     externalAdReply: {
                         title: `Search Term: ${term}`,
-                        body: `👾 Handcrafted for you by Kaoi 👾`,
+                        body: `🌟 Here you go 🌟`,
                         mediaType: 2,
                         thumbnailUrl: videos[0].thumbnail,
                         mediaUrl: videos[0].url
                     }
                 }
             })
-            .catch((reason: any) => M.reply(`❌ an error occupered, Reason: ${reason}`))
+            .catch((reason: any) => M.reply(`✖ An error occurred, Reason: ${reason}`))
     }
 }
