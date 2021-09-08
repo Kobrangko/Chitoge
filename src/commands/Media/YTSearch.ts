@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
                 videos[i].author.name
             }\n 📙 *Duration:* ${videos[i].duration}\n📘 *URL:* ${videos[i].url}\n\n`
         }
-        M.reply('🌟 searching...')
+        M.reply('🌟 Searching...')
         this.client
             .sendMessage(M.from, text, MessageType.extendedText, {
                 quoted: M.WAMessage,
@@ -43,6 +43,6 @@ export default class Command extends BaseCommand {
                     }
                 }
             })
-            .catch((reason: any) => M.reply(`❌ an error occupered, Reason: ${reason}`))
+            .catch((reason: any) => M.reply(`✖ An error occurred, Reason: ${reason}`))
     }
 }
