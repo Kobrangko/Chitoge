@@ -61,7 +61,7 @@ Activate| Activates certain bot features in a group chat|
 |Weeb| usage|
 |-----------|
 |Neko| Sends you a random anime neko image|
-|Waifu| Sends you a random anime waifu image|
+|Rpaper| Sends you a random anime wallpaper|
 
 |Dev| usage|
 |----|--------|
